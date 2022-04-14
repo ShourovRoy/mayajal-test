@@ -11,10 +11,10 @@ export default function MainRoute() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/registration" element={<Registration />} />
-        <Route path="/CourseDetails" element={<CourseDetails />} />
-        <Route path="/regconfirm" element={<ConfirmReg />} />
+        <Route exact  path="/" element={<Home />} />
+        <Route  path="/registration" element={<Registration />} />
+        <Route  path="/CourseDetails" element={<CourseDetails />} />
+        <Route  path="/regconfirm" element={<ConfirmReg />} />
 
         {/* <Route path="*" element={<Error />} /> */}
       </Routes>
