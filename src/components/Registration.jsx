@@ -115,7 +115,7 @@ function Registration() {
   const SendData = mainData => {
     axios
       .post(
-        'https://sheet.best/api/sheets/c0478839-d284-4d8c-bf77-1feb5bb1c6da',
+        'https://sheet.best/api/sheets/c0e62a9a-df28-41da-9a1c-41439f34e05f',
         mainData
       )
       .then(response => {
